@@ -1,0 +1,29 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@popperjs/core': ^2.11.6
+  bootstrap: ^5.2.1
+  jquery: ^3.6.1
+
+dependencies:
+  '@popperjs/core': 2.11.6
+  bootstrap: 5.2.1_@popperjs+core@2.11.6
+  jquery: 3.6.1
+
+packages:
+
+  /@popperjs/core/2.11.6:
+    resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
+    dev: false
+
+  /bootstrap/5.2.1_@popperjs+core@2.11.6:
+    resolution: {integrity: sha512-UQi3v2NpVPEi1n35dmRRzBJFlgvWHYwyem6yHhuT6afYF+sziEt46McRbT//kVXZ7b1YUYEVGdXEH74Nx3xzGA==}
+    peerDependencies:
+      '@popperjs/core': ^2.11.6
+    dependencies:
+      '@popperjs/core': 2.11.6
+    dev: false
+
+  /jquery/3.6.1:
+    resolution: {integrity: sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==}
+    dev: false
